@@ -1,0 +1,43 @@
+package pkg1.views;
+
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import java.awt.BorderLayout;
+import javax.swing.JToolBar;
+import java.awt.Color;
+import java.awt.FlowLayout;
+import java.awt.GridLayout;
+import javax.swing.JButton;
+import javax.swing.SwingConstants;
+import javax.swing.JDesktopPane;
+
+public class CreatePlayer extends JPanel {
+	/**
+	 * Create the panel.
+	 */
+	public CreatePlayer() {
+		setLayout(new BorderLayout(0, 0));
+		
+		JDesktopPane desktopPane = new JDesktopPane();
+		add(desktopPane, BorderLayout.CENTER);
+		
+		JToolBar toolBar_1 = new JToolBar();
+		toolBar_1.setBackground(new Color(255, 204, 51));
+		toolBar_1.setBounds(0, 0, 440, 23);
+		desktopPane.add(toolBar_1);
+		
+		JButton btnCreate_1 = new JButton("Create character");
+		btnCreate_1.setHorizontalAlignment(SwingConstants.TRAILING);
+		toolBar_1.add(btnCreate_1);
+		
+		JButton btnAbility_1 = new JButton("Abilities");
+		btnAbility_1.setHorizontalAlignment(SwingConstants.TRAILING);
+		toolBar_1.add(btnAbility_1);
+		
+		JButton btnNewButton_1 = new JButton("Background and Aligment");
+		btnNewButton_1.setHorizontalAlignment(SwingConstants.TRAILING);
+		toolBar_1.add(btnNewButton_1);
+
+	}
+
+}

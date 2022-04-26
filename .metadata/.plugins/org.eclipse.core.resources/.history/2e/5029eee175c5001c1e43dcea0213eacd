@@ -1,0 +1,13 @@
+package pkg1.views;
+
+import javax.swing.JPanel;
+
+public class CreatePlayer extends JPanel {
+	/**
+	 * Create the panel.
+	 */
+	public CreatePlayer() {
+
+	}
+
+}

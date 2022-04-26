@@ -1,0 +1,14 @@
+package pkg1.views;
+
+import javax.swing.JPanel;
+
+public class Insert extends JPanel {
+
+	/**
+	 * Create the panel.
+	 */
+	public Insert() {
+
+	}
+
+}

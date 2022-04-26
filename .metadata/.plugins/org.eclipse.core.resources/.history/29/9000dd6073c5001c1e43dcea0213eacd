@@ -1,0 +1,17 @@
+package pkg1.views;
+
+import java.awt.EventQueue;
+
+import javax.swing.JInternalFrame;
+
+public class Insert extends JInternalFrame {
+
+	/**
+	 * Create the frame.
+	 */
+	public Insert() {
+		setBounds(100, 100, 450, 300);
+
+	}
+
+}

@@ -1,0 +1,2 @@
+# List of external plug-in models previously loaded. Timestamp: 1650982042714
+file:/C:/Program%20Files/eclipse/java/eclipse/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar
